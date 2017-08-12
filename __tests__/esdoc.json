@@ -1,0 +1,12 @@
+{
+    "source": "./__tests__",
+    "destination": "./__tests__/doc",
+    "excludes": [
+        "\\.spec\\.js$"
+    ],
+    "plugins": [
+        {
+            "name": "./src/Plugin.js"
+        }
+    ]
+}

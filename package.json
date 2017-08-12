@@ -1,0 +1,43 @@
+{
+  "name": "esdoc-external-events-plugin",
+  "version": "1.0.0",
+  "description": "Add links to DOM Event interfaces definitions in MDN documentation",
+  "author": "Yaroslav Kovalev <richard.yesley@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesley/esdoc-external-events-plugin.git"
+  },
+  "homepage": "https://github.com/yesley/esdoc-external-events-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/yesley/esdoc-external-events-plugin/issues"
+  },
+  "keywords": [
+    "esdoc",
+    "external",
+    "dom",
+    "events",
+    "plugin",
+    "esdoc-plugin"
+  ],
+  "main": "src/Plugin.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "test": "jest --testPathPattern=\"\\.spec\\.js\""
+  },
+  "devDependencies": {
+    "esdoc": ">= 1.0.0",
+    "fs-extra": "^4.0.1",
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1"
+  },
+  "peerDependencies": {
+    "esdoc": ">=1.0.0"
+  }
+}
